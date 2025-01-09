@@ -2093,6 +2093,12 @@ header.major h2 {
 	font-size: 2.25em;
 }
 
+
+header.major h3 {
+	font-size: 1.55em;
+}
+
+
 header.major p {
 	position: relative;
 	border-top: solid 1px #e0e0e0;
@@ -2133,43 +2139,6 @@ footer.major {
 	padding-top: 3em;
 }
 
-/* Form */
-
-input[type="text"],
-input[type="password"],
-input[type="email"],
-textarea {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
-	-moz-transition: border-color 0.2s ease-in-out;
-	-webkit-transition: border-color 0.2s ease-in-out;
-	-ms-transition: border-color 0.2s ease-in-out;
-	transition: border-color 0.2s ease-in-out;
-	background: #fff;
-	border: solid 1px #e0e0e0;
-	border-radius: 5px;
-	color: inherit;
-	display: block;
-	outline: 0;
-	padding: 0.75em;
-	text-decoration: none;
-	width: 100%;
-}
-
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-	border-color: #37c0fb;
-}
-
-input[type="text"],
-input[type="password"],
-input[type="email"] {
-	line-height: 1em;
-}
 
 label {
 	display: block;
@@ -2867,7 +2836,7 @@ button.small,
 }
 
 .wrapper.style2 {
-	background-color: #fff;
+	background-color: #081c15;
 	background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
 	background-position: top left, bottom left, top left;
 	background-size: 100% 6em, 100% 6em, auto;
@@ -2910,6 +2879,9 @@ button.small,
 	margin-left: 1em;
 }
 
+#title-header {
+	color: #fff;
+}
 /* Skills */
 #skills {
 	padding: 2em 0 2em 0;
@@ -2920,6 +2892,9 @@ button.small,
 	border-bottom-color: rgba(71, 71, 71, 0.25);
 }
 
+#skills h2{
+	margin: 0;
+}
 #skills .container {
 	margin-bottom: 4em;
 }
@@ -2936,11 +2911,20 @@ button.small,
 #skills .icons a:hover {
 	color: #474747;
 }
-
+#skills section{
+	margin-right: 10em;
+}
 #skills-list {
 	list-style: none;
+	color: black;
 	padding-left: 0;
 }
+
+#skills-list li {
+	line-height: 1.1em;
+	font-size: 0.9em;
+}
+
 
 /* Footer */
 #footer {
