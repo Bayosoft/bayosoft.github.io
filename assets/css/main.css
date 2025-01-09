@@ -2884,7 +2884,7 @@ button.small,
 }
 /* Skills */
 #skills {
-	padding: 2em 0 2em 0;
+	padding: 4em 0 0em 0;
 }
 
 #skills a {
@@ -2911,9 +2911,7 @@ button.small,
 #skills .icons a:hover {
 	color: #474747;
 }
-#skills section{
-	margin-right: 10em;
-}
+
 #skills-list {
 	list-style: none;
 	color: black;
