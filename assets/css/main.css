@@ -205,13 +205,13 @@ a {
 	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-	color: #37c0fb;
+	color: black;
 	text-decoration: none;
 	border-bottom: dotted 1px;
 }
 
 a:hover {
-	color: #37c0fb;
+	color: black;
 	border-bottom-color: transparent;
 }
 
@@ -2253,7 +2253,7 @@ label {
 .icon.major {
 	text-align: center;
 	cursor: default;
-	background-color: #37c0fb;
+	background-color: black;
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
@@ -2522,7 +2522,7 @@ button,
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
 	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
-	background-color: #37c0fb;
+	background-color: black;
 	border-radius: 5px;
 	border: 0;
 	color: #fff;
@@ -2638,7 +2638,6 @@ button.small,
 
 #header {
 	text-align: center;
-	padding: 3em 0 0 0;
 	background-color: #fff;
 	background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 	background-position: top left, top left, top left;
@@ -2659,12 +2658,13 @@ button.small,
 
 #nav {
 	cursor: default;
-	background-color: #333;
+	background-color: #fff;
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/bg01.png");
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/bg01.png");
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/bg01.png");
 	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/bg01.png");
 	padding: 0;
+	align-self: center;
 }
 
 #nav:after {
@@ -2672,12 +2672,13 @@ button.small,
 	display: block;
 	width: 100%;
 	height: 0.75em;
-	background-color: #37c0fb;
+	background-color: #081c15;
 	background-image: url("images/bg01.png");
 }
 
 #nav>ul {
 	margin: 0;
+	align-self: center;
 }
 
 #nav>ul>li {
@@ -2687,7 +2688,7 @@ button.small,
 }
 
 #nav>ul>li a {
-	color: #c0c0c0;
+	color: black;
 	text-decoration: none;
 	border: 0;
 	display: block;
@@ -2699,7 +2700,7 @@ button.small,
 }
 
 #nav>ul>li:hover a {
-	color: #fff;
+	color: #081c15;
 }
 
 #nav>ul>li.current {
@@ -2719,16 +2720,16 @@ button.small,
 	bottom: -0.5em;
 	left: 50%;
 	margin-left: -0.375em;
-	background-color: #37c0fb;
+	background-color: #081c15;
 	background-image: url("images/bg01.png");
 }
 
 #nav>ul>li.current a {
-	color: #fff;
+	color: black;
 }
 
 #nav>ul>li.active a {
-	color: #fff;
+	color: black;
 }
 
 #nav>ul>li.active.current:before {
@@ -2737,6 +2738,7 @@ button.small,
 
 #nav>ul>li>ul {
 	display: none;
+	color: #fff;
 }
 
 /* Dropotron */
@@ -2746,9 +2748,9 @@ button.small,
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("images/bg01.png");
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("images/bg01.png");
 	background-image: linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("images/bg01.png");
-	background-color: #333;
+	background-color: #fff;
 	border-radius: 5px;
-	color: #fff;
+	color: #ffffff;
 	min-width: 10em;
 	padding: 1em 0;
 	text-align: center;
@@ -2762,14 +2764,14 @@ button.small,
 }
 
 .dropotron>li>a {
-	color: #c0c0c0;
+	color: black;
 	text-decoration: none;
 	border: 0;
 }
 
 .dropotron>li.active>a,
 .dropotron>li:hover>a {
-	color: #fff;
+	color: grey;
 }
 
 .dropotron.level-0 {
@@ -2845,7 +2847,7 @@ button.small,
 }
 
 .wrapper.style3 {
-	background-color: #37c0fb;
+	background-color: #081c15;
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/bg01.png");
@@ -2859,7 +2861,7 @@ button.small,
 }
 
 .wrapper.style3 .button:hover {
-	color: #37c0fb !important;
+	color: black !important;
 }
 
 /* CTA */
@@ -2880,12 +2882,20 @@ button.small,
 	margin-left: 1em;
 }
 
-#title-header {
+#title-header h2{
 	color: #fff;
+	padding: 0.5em 0 0 0
+}
+#title-header h3{
+	color: #fff;
+	padding: 0 0 0 0
+}
+#title-header p{
+	color: #c7c7c7;
 }
 /* Skills */
 #skills {
-	padding: 2.5em 0 0em 0;
+	padding: 3em 0 0em 0;
 }
 
 #skills a {
@@ -2934,12 +2944,11 @@ button.small,
 
 /* projects */
 #projects {
-	padding: 4em 0 0em 0;
+	padding: 0em 0 0em 0;
 }
 #projects h2{
 	font-size: 2.5em;
-	margin: 0;
-	margin-top: -1em;
+	margin: -1em 0 0 0;
 	border-bottom: solid 1px #e0e0e0;
 }
 
@@ -2968,7 +2977,7 @@ button.small,
 }
 
 #footer a:hover {
-	color: #37c0fb;
+	color: black;
 	border-bottom-color: transparent;
 }
 #footer p {
@@ -3265,7 +3274,7 @@ button.small,
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url("images/bg01.png");
 		height: 44px;
 		line-height: 44px;
-		box-shadow: 0 4px 0 0 #37c0fb;
+		box-shadow: 0 4px 0 0 black;
 	}
 
 	#titleBar .title {

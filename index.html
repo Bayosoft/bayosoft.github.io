@@ -17,18 +17,20 @@
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<div id="header">
 
-			<!-- Logo --><!-- 
+
+		<!-- Logo --><!-- 
 						<h1><a href="index.html" id="logo">Raphael van Akkerveken</a></h1> -->
 
-			<!-- Nav -->
-			<!-- 						<nav id="nav">
+		<!-- Nav -->
+		<!-- ENABLE WHEN PROJECT PAGES ARE ADDED
+			 <div id="header">
+						<nav id="nav">
 							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
+								<li class="current"><a href="index.html">Portfolio</a></li>
 								<li>
-									<a href="#">Dropdown</a>
-									<ul>
+									<a href="#">Projects</la>
+									<ul class="dropdown-content">
 										<li><a href="#">Lorem dolor</a></li>
 										<li><a href="#">Magna phasellus</a></li>
 										<li><a href="#">Etiam sed tempus</a></li>
@@ -45,34 +47,123 @@
 										<li><a href="#">Veroeros feugiat</a></li>
 									</ul>
 								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="two-sidebar.html">Two Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
 							</ul>
-						</nav> -->
-
-		</div>
-
+						</nav>
+					</div>
+				-->
 		<!-- Banner -->
-		<!-- 		<section id="banner">
-			<header>
-				<h2>Raphael van Akkerveken - Game & Software Engineer. This is who I am and what I achieved. Look at my
-					portfolio!</h2>
-			</header>
-		</section> -->
 
 		<!-- Gigantic Heading -->
 		<section class="wrapper style2">
 			<div class="container">
-				<header class="major">
-					<h2 id="title-header">Raphael van Akkerveken </h2><h3 id="title-header">Game & Software Engineer</h3>
-					<p>Welcome to my portfolio. My name is Raphael, currently working at IKNL (Cancer Data Registry of the Netherlands). My passion is game- & software design and engineering.
+				<header class="major" id="title-header">
+					<h2>Raphael van Akkerveken </h2>
+					<h3>Game & Software Engineer</h3>
+					<p>Welcome to my portfolio. My name is Raphael, currently working at IKNL (Cancer Data Registry of
+						the Netherlands). My passion is game- & software design and engineering.
 						Here you can find my projects and learn more about me.
 					</p>
 				</header>
 			</div>
 		</section>
+
+		<!--<i class="icon solid major fa-paper-plane"></i> -->
+
+		<!-- Projects -->
+		<div id="projects">
+			<section class="wrapper style1">
+				<div class="container">
+					<h2>Projects</h2>
+					<div class="row">
+						<section class="col-6-narrower col-12-mobilep">
+							<h3>Exploration Roguelike</h3>
+							<img class="image left" src="images/explorationroguelike exploration.png" alt="" />
+							<div class="inner">
+								<p>
+									A solo Unity game. Designed, drawn, and programmed by me.
+									Includes the implementation of map generation, turn based combat, card system,
+									dialogue system, and a generic ability component.</p>
+							</div>
+						</section>
+					</div>
+					<div class="row">
+						<section class="col-6-narrower col-12-mobilep">
+							<h3>Against Time</h3>
+							<a href="#" class="image left"><img src="images/against-time.png" alt="" /></a>
+							<div class="inner">
+
+								<p>A Unity game made in collaboration. Find your way out of the island before the time
+									is up.</p>
+							</div>
+						</section>
+					</div>
+					<div class="row">
+						<section class="col-6-narrower col-12-mobilep">
+							<h3>SinarX - X-Ray simulation</h3>
+							<img class="image left" src="images/sinarx.png" alt="" />
+							<div class="inner">
+								<p>
+									SinarX is an app built in c# using WPF.
+									My role was to design and implement the capability to simulate x-ray in three
+									dimensions.
+								</p>
+
+							</div>
+						</section>
+					</div>
+					<div class="row">
+						<section class="col-6-narrower col-12-mobilep">
+							<h3>Personalized cancer survival statistics</h3>
+							<a
+								href="https://www.kanker.nl/kankersoorten/borstkanker/algemeen/overlevingscijfers-van-borstkanker">
+								<img class="image left" src="images/overlevingscijfers kanker.png" alt="" /></a>
+							<div class="inner">
+								<p>Uses the dutch cancer registry to provide the most up to date survival statistics
+									personalized to an individual's situation.
+									Written in c#.
+									Built with a team of five, my role was to implement the domain logic of the
+									statistics API.
+								</p>
+							</div>
+						</section>
+					</div>
+					<div class="row">
+						<section class="col-6-narrower col-12-mobilep">
+							<h3>Collaborative Authoring</h3>
+							<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
+							<div class="inner">
+
+								<p>Collaborative Authoring allows you to work on books with others in real-time. Google
+									docs for writers.
+									Collaborative Authoring is a microservice software written in c#.
+									It is a collection of software services that communicate with each other in real
+									time through event streaming with Kafka.
+								</p>
+							</div>
+						</section>
+					</div>
+					<!--					<div class="row">
+						<section class="col-6-narrower col-12-mobilep">
+								<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>D&D Whisper</h3>
+									<p>Built using FXML, Java, and WebSockets. This app allows players to whisper each other through text in real time, and roll dice using the Mersenne Twister algorithm.</p>
+								</div>
+						</section>
+					</div> -->
+					
+				</div>
+			</section>
+		</div>
+		<!--		<div class="container">
+			<header class="aboutme">				
+				<h2>A detailed About Me!</h2>
+				<a href="#" class="image left"><img src="images/pic04.jpg" alt="" />Picture of me</a>
+				<p>About me from when I was young to now!<br/>The source of my passion..<br/>Education and stuff..<br/>Work experiences..<br/>What I am today!
+				</p>
+			</header>
+		</div>
+-->
 		<div id="skills">
 			<div class="container">
 				<h2>Skills</h2>
@@ -85,7 +176,7 @@
 							<li>Java</li>
 							<li>SQL</li>
 							<li>JavaScript</li>
-							<br/>
+							<br />
 							<li><b>Project Management</b></li>
 							<li>CI/CD</li>
 							<li>Agile (Kanban, Scrum, XP)</li>
@@ -100,12 +191,12 @@
 							<li>Gameplay Design</li>
 							<li>Systems Design</li>
 							<li>Narrative Design</li>
-							<br/>
+							<br />
 							<li><b>Software Design</b></li>
 							<li>Domain-driven design</li>
 							<li>Test-driven development</li>
 							<li>Event-driven architecture</li>
-							<br/>
+							<br />
 						</ul>
 					</section>
 					<section class="col-3 col-6-narrower col-12-mobilep">
@@ -116,7 +207,7 @@
 							<li>Godot</li>
 							<li>Unreal Engine</li>
 							<li>&#160</li>
-							<br/>
+							<br />
 							<li><b>Productivity</b></li>
 							<li>Git (GitHub, GitLab, Azure DevOps)</li>
 							<li>Photoshop</li>
@@ -125,106 +216,16 @@
 				</div>
 			</div>
 		</div>
-		<!--<i class="icon solid major fa-paper-plane"></i> -->
-
-		<!-- Projects -->
-		<div id="projects">
-			<section class="wrapper style1">		
-				<div class="container">
-					<h2>Projects</h2>
-					<div class="row">
-						<section class="col-6-narrower col-12-mobilep">
-							<h3>Exploration Roguelike</h3>
-								<a href="#" class="image left"><img src="images/explorationroguelike exploration.png" alt="" /></a>
-								<div class="inner">							
-									<p>
-										A solo Unity game. Designed, drawn, and programmed by me.
-										Includes the implementation of map generation, turn based combat, card system, dialogue system, and a generic ability component.</p>
-								</div>
-						</section>
-					</div>
-					<div class="row">
-						<section class="col-6-narrower col-12-mobilep">
-							<h3>SinarX - X-Ray simulation</h3>
-								<a href="#" class="image left"><img src="images/sinarx.png" alt="" /></a>
-								<div class="inner">
-
-									<p>
-										SinarX is an app built in c# using WPF. 
-										My role was to design and implement the capability to simulate x-ray in three dimensions.
-									</p>
-
-							</div>
-						</section>
-					</div>
-					<div class="row">
-						<section class="col-6-narrower col-12-mobilep">
-							<h3>Personalized cancer survival statistics</h3>
-								<a href="https://www.kanker.nl/kankersoorten/borstkanker/algemeen/overlevingscijfers-van-borstkanker" class="image left"><img src="images/pic01.jpg" alt="" /></a>
-								<div class="inner">
-									
-									<p>Uses the dutch cancer registry to provide the most up to date survival statistics personalized to an individual's situation.
-										Written in c#.
-										Built with a team of five, my role was to implement the domain logic of the statistics API.
-									</p>				
-							</div>
-						</section>
-					</div>
-					<div class="row">
-						<section class="col-6-narrower col-12-mobilep">
-							<h3>Collaborative Authoring</h3>
-								<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
-								<div class="inner">
-									
-									<p>Collaborative Authoring allows you to work on books with others in real-time. Google docs for writers.
-										Collaborative Authoring is a microservice software written in c#.
-										It is a collection of software services that communicate with each other in real time through event streaming with Kafka. 
-									</p>
-								</div>
-						</section>
-					</div>
-<!--					<div class="row">
-						<section class="col-6-narrower col-12-mobilep">
-								<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
-								<div class="inner">
-									<h3>D&D Whisper</h3>
-									<p>Built using FXML, Java, and WebSockets. This app allows players to whisper each other through text in real time, and roll dice using the Mersenne Twister algorithm.</p>
-								</div>
-						</section>
-					</div> -->
-					<div class="row">
-						<section class="col-6-narrower col-12-mobilep">
-							<h3>Against Time</h3>
-								<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
-								<div class="inner">
-	
-									<p>A Unity game made in collaboration. Find your way out of the island before the time is up.</p>
-								</div>
-						</section>
-					</div>
-				</div>
-			</section>
-		</div>
-<!--		<div class="container">
-			<header class="aboutme">				
-				<h2>A detailed About Me!</h2>
-				<a href="#" class="image left"><img src="images/pic04.jpg" alt="" />Picture of me</a>
-				<p>About me from when I was young to now!<br/>The source of my passion..<br/>Education and stuff..<br/>Work experiences..<br/>What I am today!
-				</p>
-			</header>
-		</div>
--->
-
 		<section class="wrapper style2">
-		<!-- Footer -->
-		<div id="footer">
-			<!-- Icons -->
-			<ul class="icons">
-				<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-				<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-			</ul>
+			<!-- Footer -->
+			<div id="footer">
+				<!-- Icons -->
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				</ul>
 
-		</div>
+			</div>
 
 	</div>
 
