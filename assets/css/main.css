@@ -1,6 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /*
 	Arcana by HTML5 UP
 	html5up.net | @ajlkn
@@ -193,10 +193,10 @@ body,
 input,
 select,
 textarea {
-	color: #474747;
-	font-family: 'Source Sans Pro', sans-serif;
+	color: #000000;
+	font-family: 'Roboto', 'Noto Sans', sans-serif;
 	font-size: 16pt;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.65em;
 }
 
@@ -2835,7 +2835,7 @@ button.small,
 }
 
 .wrapper.style1 {
-	background: #fff;
+	background: #eeeeee;
 }
 
 .wrapper.style2 {
@@ -2956,12 +2956,16 @@ button.small,
 	margin: 0;
 	font-size: 1.75em;
 }
-
+#projects p{
+	margin: 0;
+	font-size: 0.8em;
+	line-height: 1.1em;
+}
 #projects img{
 	margin-top: 0em;
     float: left;
-    width:  140px;
-    height: 140px;
+    width:  350px;
+    height: 350px;
     object-fit: cover;
 	display: block;
 }
