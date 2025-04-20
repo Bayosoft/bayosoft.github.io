@@ -1420,7 +1420,7 @@ blockquote {
 	}
 
 	.row>.col-6-narrower {
-		width: 50%;
+		width:100%;
 	}
 
 	.row>.off-6-narrower {
@@ -2953,7 +2953,7 @@ button.small,
 }
 
 #projects h3{
-	margin: 0;
+	margin: 0.25em 0 0 0 ;
 	font-size: 1.75em;
 }
 #projects p{
