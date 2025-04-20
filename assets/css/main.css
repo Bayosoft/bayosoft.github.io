@@ -2958,11 +2958,12 @@ button.small,
 }
 #projects p{
 	margin: 0;
+	margin-left: calc(350px + 2.5em);
 	font-size: 0.8em;
 	line-height: 1.1em;
 }
 #projects img{
-	margin-top: 0em;
+	margin-top: 1em;
     float: left;
     width:  350px;
     height: 350px;
