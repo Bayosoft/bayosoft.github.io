@@ -3113,6 +3113,10 @@ button.small,
 		line-height: 1.5em;
 	}
 
+	#projects p {
+		margin: 0;
+	}
+
 }
 
 /* Narrower */
