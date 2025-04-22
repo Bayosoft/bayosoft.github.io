@@ -242,7 +242,7 @@ h5,
 h6 {
 	color: inherit;
 	font-weight: 600;
-	line-height: 1.75em;
+	line-height: 1.7em;
 	margin-bottom: 1em;
 }
 
@@ -2968,7 +2968,7 @@ button.small,
 	margin: 0;
 	margin-left: calc(350px + 2.5em);
 	font-size: 0.8em;
-	line-height: 1.1em;
+	line-height: 1.2em;
 }
 #projects img{
 	margin-top: 1em;
